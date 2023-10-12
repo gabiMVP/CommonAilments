@@ -32,7 +32,7 @@ From 796 rows we can thus make 4 times as many question and answer pair
 
 We use pandas to create the question answer pairs 
 
-One important note is that as per the documentation in the model :https://huggingface.co/transformers/v2.10.0/model_doc/t5.html
+One important note is that as per the documentation in the model https://huggingface.co/transformers/v2.10.0/model_doc/t5.html
 the padding on the labes has to be with value -100 so the loss function of the model knows to ignore it for the loss calculation 
 
 I tried 2 implementations
