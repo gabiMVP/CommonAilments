@@ -28,7 +28,7 @@ From these ailments we invision a practical model that can answer 4 types of que
 From 796 rows we can thus make 4 times as many question and answer pair
 
 
-###Implementation notes:
+### Implementation notes:
 
 We use pandas to create the question answer pairs 
 
@@ -46,7 +46,7 @@ which focuses on  Longest Common Subsequence predicted by the model
  
 good explination here : https://medium.com/mlearning-ai/text-summarization-84ada711c49c
  
-###Results:
+### Results:
  
 Best results with 5 training epochs on T5-base Model:
 
