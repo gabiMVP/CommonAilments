@@ -1,0 +1,38 @@
+
+711/711 [==============================] - 266s 274ms/step - loss: 1.3677 - val_loss: 0.8362 - RougeL: 0.4745
+Epoch 2/10
+711/711 [==============================] - 183s 258ms/step - loss: 0.8637 - val_loss: 0.6812 - RougeL: 0.4685
+Epoch 3/10
+711/711 [==============================] - 184s 259ms/step - loss: 0.7134 - val_loss: 0.6195 - RougeL: 0.4758
+Epoch 4/10
+711/711 [==============================] - 183s 257ms/step - loss: 0.6187 - val_loss: 0.5888 - RougeL: 0.4821
+Epoch 5/10
+711/711 [==============================] - 182s 256ms/step - loss: 0.5554 - val_loss: 0.5767 - RougeL: 0.4793
+Epoch 6/10
+711/711 [==============================] - 183s 257ms/step - loss: 0.5141 - val_loss: 0.5689 - RougeL: 0.4790
+Epoch 7/10
+711/711 [==============================] - 182s 256ms/step - loss: 0.4743 - val_loss: 0.5709 - RougeL: 0.4823
+Epoch 8/10
+711/711 [==============================] - 183s 257ms/step - loss: 0.4371 - val_loss: 0.5664 - RougeL: 0.4831
+Epoch 9/10
+711/711 [==============================] - 184s 259ms/step - loss: 0.4097 - val_loss: 0.5639 - RougeL: 0.4843
+Epoch 10/10
+711/711 [==============================] - 183s 257ms/step - loss: 0.3785 - val_loss: 0.5736 - RougeL: 0.4860
+
+
+
+Answer:  <pad> Glaucoma</s>
+Expected Answer:  Glaucoma
+Rouge:  tf.Tensor(0.4869021, shape=(), dtype=float32)
+Question:  who Is At Risk for Spondylitis?
+Answer:  <pad> Groups of people at highest risk for spondylitis include age 45-59 years. On the other hand, age 1-4 years and age <unk> 1 years almost never get spondylitis.,Within all the people who go to their doctor with spondylitis, 84% report having low back pain, 77% report having low back pain, and 77% report having leg pain.</s>
+Expected Answer:  Groups of people at highest risk for spondylitis include age 45-59 years. On the other hand, age 1-4 years and age < 1 years almost never get spondylitis.,Within all the people who go to their doctor with spondylitis, 88% report having back pain, 83% report having low back pain, and 47% report having leg pain.
+Rouge:  tf.Tensor(0.48743352, shape=(), dtype=float32)
+Question:  what are the most comon test and procedures for Indigestion?
+Answer:  <pad> Hematologic tests (Blood test),Complete blood count (Cbc),Glucose measurement (Glucose level),Electrolytes panel,Electrocardiogram,Kidney function tests (Kidney function test),Intravenous fluid replacement,Electrocardiogram,</s>
+Expected Answer:  Hematologic tests (Blood test),Complete blood count (Cbc),Urinalysis,Glucose measurement (Glucose level),Electrolytes panel,Kidney function tests (Kidney function test),Electrocardiogram,Intravenous fluid replacement,
+Rouge:  tf.Tensor(0.4879257, shape=(), dtype=float32)
+Question:   what are drugs for Mononucleosis?
+Answer:  <pad> The most commonly prescribed drugs for patients with mononucleosis include bactrim, phenazopyridine (azo), phenytoin (dilantin), phenytoin (dilantin), phenytoin (dilantin), ritonavir (norvir), phenytoin (dilantin), phenytoin (dilantin), phenytoin (dilantin), phenytoin (dilantin), tazarotene topical, tazarotene topical and rituximab.</s>
+Expected Answer:  The most commonly prescribed drugs for patients with mononucleosis include dexamethasone topical product, drospirenone / ethinyl estradiol, adapalene topical, phentermine, nalbuphine (nubain), cat's claw preparation, tromethamine, cladribine, intramuscular immunoglobulin (baygam), lipase, trandolapril / verapamil, desoximetasone topical and ramelteon (rozerem) .
+Rouge:  tf.Tensor(0.4877509, shape=(), dtype=float32)

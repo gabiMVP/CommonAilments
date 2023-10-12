@@ -1,0 +1,40 @@
+Epoch 1/5
+      6/Unknown - 77s 167ms/step - loss: 4.2582WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1345s vs `on_train_batch_end` time: 0.3513s). Check your callbacks.
+    710/Unknown - 191s 162ms/step - loss: 1.3623/usr/local/lib/python3.10/dist-packages/transformers/generation/tf_utils.py:838: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length.  recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+710/710 [==============================] - 432s 503ms/step - loss: 1.3623 - val_loss: 0.8993 - RougeL: 0.4979
+Epoch 2/5
+710/710 [==============================] - ETA: 0s - loss: 0.8646/usr/local/lib/python3.10/dist-packages/transformers/generation/tf_utils.py:838: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length.  recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+710/710 [==============================] - 338s 475ms/step - loss: 0.8646 - val_loss: 0.7510 - RougeL: 0.5047
+Epoch 3/5
+710/710 [==============================] - ETA: 0s - loss: 0.7115/usr/local/lib/python3.10/dist-packages/transformers/generation/tf_utils.py:838: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length.  recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+710/710 [==============================] - 328s 460ms/step - loss: 0.7115 - val_loss: 0.6765 - RougeL: 0.5020
+Epoch 4/5
+710/710 [==============================] - ETA: 0s - loss: 0.6159/usr/local/lib/python3.10/dist-packages/transformers/generation/tf_utils.py:838: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length.  recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+710/710 [==============================] - 324s 455ms/step - loss: 0.6159 - val_loss: 0.6306 - RougeL: 0.5002
+Epoch 5/5
+710/710 [==============================] - ETA: 0s - loss: 0.5546/usr/local/lib/python3.10/dist-packages/transformers/generation/tf_utils.py:838: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length.  recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+710/710 [==============================] - 327s 458ms/step - loss: 0.5546 - val_loss: 0.6097 - RougeL: 0.4971
+
+
+
+Question:  what desease has these simptoms: glaucoma are symptoms of eye, spots or clouds in vision, blindness, and itchy eyelid, although you may still have glaucoma without those symptoms. ?
+Answer:  <pad> Glaucoma</s>
+Expected Answer:  Glaucoma
+Rouge:  tf.Tensor(0.4971218, shape=(), dtype=float32)
+Question:  who Is At Risk for Spondylitis?
+Answer:  <pad> Groups of people at highest risk for spondylitis include age 75+ years age 60-74 years. On the other hand, age 1-4 years and age <unk> 1 years almost never get spondylitis.,Within all the people who go to their doctor with spondylitis, 84% report having back pain, 56% report having neck pain, and 56% report having neck pain.</s>
+Expected Answer:  Groups of people at highest risk for spondylitis include age 45-59 years. On the other hand, age 1-4 years and age < 1 years almost never get spondylitis.,Within all the people who go to their doctor with spondylitis, 88% report having back pain, 83% report having low back pain, and 47% report having leg pain.
+Rouge:  tf.Tensor(0.49777204, shape=(), dtype=float32)
+Question:  what are the most comon test and procedures for Indigestion?
+Answer:  <pad> Hematologic tests (Blood test),Complete blood count (Cbc),Radiographic imaging procedure,Urinalysis,Glucose measurement (Glucose level),Electrolytes panel,Kidney function tests (Kidney function test),Electrocardiogram,</s>
+Expected Answer:  Hematologic tests (Blood test),Complete blood count (Cbc),Urinalysis,Glucose measurement (Glucose level),Electrolytes panel,Kidney function tests (Kidney function test),Electrocardiogram,Intravenous fluid replacement,
+Rouge:  tf.Tensor(0.49846464, shape=(), dtype=float32)
+Question:   what are drugs for Mononucleosis?
+Answer:  <pad> The most commonly prescribed drugs for patients with mononucleosis include clotrimazole topical, tetrahydrozoline ophthalmic, phenylephrine (duramax), cyclosporine ophthalmic, phenylephrine (duramax), cyclosporine ophthalmic, phenylephrine (duramax), cyclosporine ophthalmic, phenylephrine (duramax), timolol, acetaminophen ophthalmic and timolol.</s>
+Expected Answer:  The most commonly prescribed drugs for patients with mononucleosis include dexamethasone topical product, drospirenone / ethinyl estradiol, adapalene topical, phentermine, nalbuphine (nubain), cat's claw preparation, tromethamine, cladribine, intramuscular immunoglobulin (baygam), lipase, trandolapril / verapamil, desoximetasone topical and ramelteon (rozerem) .
+Rouge:  tf.Tensor(0.49812797, shape=(), dtype=float32)
