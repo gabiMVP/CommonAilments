@@ -44,7 +44,7 @@ The learning rate is 3e-4 as in the documentation of the model
 The evaluation metric is Rouge Score L  and was implemented using the RougeL class from Keras
 which focuses on  Longest Common Subsequence predicted by the model
  
-good explination here : https://medium.com/mlearning-ai/text-summarization-84ada711c49c
+good explanation here : https://medium.com/mlearning-ai/text-summarization-84ada711c49c
  
 ### Results:
  
